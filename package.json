@@ -1,0 +1,18 @@
+{
+  "name": "ccchapman.ca",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@snowpack/plugin-svelte": "^3.3.0",
+    "snowpack": "^2.17.0"
+  },
+  "dependencies": {
+    "svelte": "^3.29.4"
+  }
+}
