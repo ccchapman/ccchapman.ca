@@ -1,0 +1,6 @@
+baseURL = 'https://ccchapman.ca/'
+languageCode = 'en-ca'
+title = 'Chris Chapman'
+theme = 'ccchapman.ca'
+
+[taxonomies]
