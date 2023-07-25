@@ -53,4 +53,32 @@
   .prose ul li {
     @apply pl-2;
   }
+
+  pre {
+    @apply !bg-slate-800;
+    @apply p-2;
+    @apply ring ring-slate-500 dark:ring-slate-700 rounded;
+  }
+
+  p code {
+    @apply bg-slate-200 text-teal-800;
+    @apply dark:bg-slate-700 dark:text-teal-200;
+    @apply px-px;
+  }
+
+  td:first-child pre {
+    @apply pr-1;
+  }
+
+  td:last-child pre {
+    @apply pl-1;
+  }
+
+  .footnotes {
+    @apply mt-6;
+  }
+
+  .footnotes hr {
+    @apply mb-4;
+  }
 }

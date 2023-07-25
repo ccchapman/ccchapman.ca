@@ -3,7 +3,7 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 /** @type {import("tailwindcss").Config} */
 module.exports = {
   content: ["./layouts/**/*.html"],
-  safelist: ["prose"],
+  safelist: ["prose", "footnotes"],
   theme: {
     extend: {
       container: {
@@ -16,6 +16,7 @@ module.exports = {
       fontFamily: {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
         "sans-alt": ["Syne", ...defaultTheme.fontFamily.sans],
+        mono: ["B612", ...defaultTheme.fontFamily.mono],
       },
     },
   },
